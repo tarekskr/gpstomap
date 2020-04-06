@@ -1,0 +1,20 @@
+{
+  "name": "gpsToMap",
+  "version": "1.0.0",
+  "description": "Overlays GPS coordinates obtained from ZOE-M8Q + FTD1232 serial port on a map",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tarek",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "gps": "^0.5.3",
+    "http": "0.0.1-security",
+    "kalman": "0.0.2",
+    "serialport": "^8.0.7",
+    "socket.io": "^2.3.0",
+    "sylvester": "0.0.21"
+  }
+}
